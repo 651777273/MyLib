@@ -1,9 +1,7 @@
 #include "BitLibray.h"
-//½«×Ö·û´®ÖĞµÄÄÚÈİ°´ 16½øÖÆµÄĞÎÊ½Êä³ö
+//å°†å­—ç¬¦ä¸²ä¸­çš„å†…å®¹æŒ‰ 16è¿›åˆ¶çš„å½¢å¼è¾“å‡º
 
-//½«Ò»¸ö×Ö½ÚµÄÄÚ´æÒÔ16½øÖÆ×Ö·ûĞÎÊ½Õ¹ÏÖ³öÀ´
-int x;
-
+//å°†ä¸€ä¸ªå­—èŠ‚çš„å†…å­˜ä»¥16è¿›åˆ¶å­—ç¬¦å½¢å¼å±•ç°å‡ºæ¥
 string print_bin(const unsigned char inchar)
 {
 	string str_out;
@@ -31,7 +29,7 @@ string print_bin(const unsigned char inchar)
 	return str_out;
 }
 
-//ÏÈ½«string²ğ·Ö³Échar£¬ÔÙµ÷ÓÃÉÏÃæµÄº¯Êı£¬½«charÖĞÄÚ´æµÄÊıÖµ°´16½øÖÆµÄ×Ö·û´òÓ¡³öÀ´
+//å…ˆå°†stringæ‹†åˆ†æˆcharï¼Œå†è°ƒç”¨ä¸Šé¢çš„å‡½æ•°ï¼Œå°†charä¸­å†…å­˜çš„æ•°å€¼æŒ‰16è¿›åˆ¶çš„å­—ç¬¦æ‰“å°å‡ºæ¥
 string print_bin(const string &str)
 {
 	string str_out;
@@ -44,7 +42,7 @@ string print_bin(const string &str)
 
 	return str_out;
 }
-//ÏÈ½«int²ğ·Ö³Échar£¬ÔÙµ÷ÓÃµÚÒ»¸öº¯Êı£¬½«charÖĞÄÚ´æµÄÊıÖµ°´16½øÖÆµÄ×Ö·û´òÓ¡³öÀ´
+//å…ˆå°†intæ‹†åˆ†æˆcharï¼Œå†è°ƒç”¨ç¬¬ä¸€ä¸ªå‡½æ•°ï¼Œå°†charä¸­å†…å­˜çš„æ•°å€¼æŒ‰16è¿›åˆ¶çš„å­—ç¬¦æ‰“å°å‡ºæ¥
 string print_bin(const unsigned int inint)
 {
 
